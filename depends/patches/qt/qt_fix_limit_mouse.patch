@@ -1,0 +1,33 @@
+--- a/qtbase/src/plugins/platforms/windows/qwindowsmousehandler.cpp
++++ b/qtbase/src/plugins/platforms/windows/qwindowsmousehandler.cpp
+@@ -62,18 +62,18 @@
+
+ #if defined(Q_CC_MINGW) || !defined(TOUCHEVENTF_MOVE)
+
+-typedef struct tagTOUCHINPUT {
+-    LONG x;
+-    LONG y;
+-    HANDLE hSource;
+-    DWORD dwID;
+-    DWORD dwFlags;
+-    DWORD dwMask;
+-    DWORD dwTime;
+-    ULONG_PTR dwExtraInfo;
+-    DWORD cxContact;
+-    DWORD cyContact;
+-} TOUCHINPUT, *PTOUCHINPUT;
++//typedef struct tagTOUCHINPUT {
++//    LONG x;
++//    LONG y;
++//    HANDLE hSource;
++//    DWORD dwID;
++//    DWORD dwFlags;
++//    DWORD dwMask;
++//    DWORD dwTime;
++//    ULONG_PTR dwExtraInfo;
++//    DWORD cxContact;
++//    DWORD cyContact;
++//} TOUCHINPUT, *PTOUCHINPUT;
+ typedef TOUCHINPUT const * PCTOUCHINPUT;
+
+ #  define TOUCHEVENTF_MOVE 0x0001
