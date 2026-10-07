@@ -1,12 +1,10 @@
-<div data-importer="border">
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=waving&height=100&section=header&reversal=false&text=AXIS%20CORE&fontSize=70&fontColor=FBFAF5&fontAlign=50&fontAlignY=50&stroke=010203&strokeWidth=2&animation=fadeIn&descSize=20&descAlign=50&descAlignY=50&textBg=false&theme=cobalt"  />
-</div>
+<img data-importer="image" align="right" height="136" src="https://i.ibb.co/JwzRKJWS/99bbcb20-7925-4498-9438-47e8bdbaf2dc.png"  />
 
 ###
 
 <div data-importer="socials" align="right">
   <a href="https://www.x.com/axiseconomy" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=X&logo=x&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="twitter logo"  />
+    <img src="https://img.shields.io/static/v1?message=X&logo=x&label=&color=000000&logoColor=white&labelColor=&style=for-the-badge" height="32" alt="twitter logo"  />
   </a>
 </div>
 
